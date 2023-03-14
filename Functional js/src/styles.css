@@ -1,0 +1,57 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: turquoise;
+}
+
+ul{
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+header .logo{
+    width: 70px;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+header .logo img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.mid-section ul{
+    display: flex;
+    flex-direction: row;
+    gap: 3.5em;
+}
+
+.mid-section ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile{
+    display: flex;
+    gap: 1.5em;
+}
+
+.profile .user{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+/** Main section **/
